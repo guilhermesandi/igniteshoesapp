@@ -14,6 +14,7 @@
 -   [ ] Typescript
 -   [ ] Expo
 -   [ ] Expo Notification
+-   [ ] OneSignal
 
 ## 🚀 Como usar
 
