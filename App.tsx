@@ -9,7 +9,7 @@ import { Routes } from './src/routes';
 
 import { THEME } from './src/theme';
 import { Loading } from './src/components/Loading';
-import { tagUserEmailCreate } from './src/notifications/notificationsTags';
+import { tagUserInfoCreate } from './src/notifications/notificationsTags';
 
 import { CartContextProvider } from './src/contexts/CartContext';
 
@@ -20,7 +20,7 @@ OneSignal.setEmail('guilherme_sandi@hotmail.com');
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
 
-  tagUserEmailCreate('guilherme_sandi@hotmail.com');
+  tagUserInfoCreate();
 
   return (
     <NativeBaseProvider theme={THEME}>
